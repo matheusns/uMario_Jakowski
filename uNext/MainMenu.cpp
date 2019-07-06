@@ -5,9 +5,9 @@
 /* ******************************************** */
 
 MainMenu::MainMenu(void) {
-	this->lMO.push_back(new MenuOption("1 PLAYER GAME", 178, 276));
-	this->lMO.push_back(new MenuOption("OPTIONS", 222, 308));
-	this->lMO.push_back(new MenuOption("ABOUT", 237, 340));
+        this->lMO.push_back(new MenuOption("COMECAR A BATALHA DE SANTA CRUZ", 178, 276));
+        this->lMO.push_back(new MenuOption("IR AO CINEMA", 222, 308));
+        this->lMO.push_back(new MenuOption("JOGAR NO TRILHO DO TREM", 237, 340));
 
 	this->numOfMenuOptions = lMO.size();
 
